@@ -12,7 +12,7 @@ import org.springframework.web.servlet.mvc.Controller;
 import cn.com.mvc.model.Fruits;
 
 /**
- * 
+ * 1
  * @author mzg
  *
  */
