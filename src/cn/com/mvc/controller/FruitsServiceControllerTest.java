@@ -11,6 +11,11 @@ import org.springframework.web.servlet.mvc.Controller;
 
 import cn.com.mvc.model.Fruits;
 
+/**
+ * 
+ * @author mzg
+ *
+ */
 public class FruitsServiceControllerTest implements Controller{
 	private FruitsService fruitsService = new FruitsService();
 
@@ -29,14 +34,14 @@ class FruitsService{
 	public List<Fruits> queryFruitsList(){
 		List<Fruits> fruitsList = new ArrayList<Fruits>();
 		Fruits apple = new Fruits();
-		apple.setName("ºì¸»Ê¿Æ»¹û");
+		apple.setName("ï¿½ì¸»Ê¿Æ»ï¿½ï¿½");
 		apple.setPrice(2.3);
-		apple.setProducting_area("É½¶«");
+		apple.setProducting_area("É½ï¿½ï¿½");
 		
 		Fruits banana = new Fruits();
-		banana.setName("Ïã½¶");
+		banana.setName("ï¿½ã½¶");
 		banana.setPrice(1.5);
-		banana.setProducting_area("ÉÏº£");
+		banana.setProducting_area("ï¿½Ïºï¿½");
 		
 		fruitsList.add(apple);
 		fruitsList.add(banana);
